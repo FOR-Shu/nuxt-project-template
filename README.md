@@ -1,6 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 環境初始化設定
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 環境搭建
+
+- [nuxt](https://github.com/nuxt/nuxt)
+- [typescript](https://github.com/microsoft/TypeScript)
+- [eslint](https://github.com/eslint/eslint)
+- [prettier](https://github.com/prettier/prettier)
+- [commitizen](https://github.com/commitizen/cz-cli)
+- [husky](https://github.com/typicode/husky)
+- [scss](https://github.com/sass/sass)
 
 ## Setup
 
