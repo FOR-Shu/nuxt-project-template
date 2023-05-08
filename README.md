@@ -48,3 +48,7 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+### 參考
+
+[配置](https://juejin.cn/post/7170746000112353293)
