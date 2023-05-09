@@ -19,8 +19,8 @@ module.exports = {
                 'chore', // 構建過程或輔助工具的變動
                 'revert', // feat(pencil): add ‘graphiteWidth’ option (撤銷之前的commit)
                 'merge', // 合並分支， 例如： merge(前端頁面)： feature-xxxx修改線程地址
-                'build', // 打包
-            ],
+                'build' // 打包
+            ]
         ],
         // <type> 格式 小寫
         'type-case': [2, 'always', 'lower-case'],
@@ -38,6 +38,6 @@ module.exports = {
         'subject-case': [0, 'never'],
         // <body> 以空行開頭
         'body-leading-blank': [1, 'always'],
-        'header-max-length': [0, 'always', 72],
-    },
-};
+        'header-max-length': [0, 'always', 72]
+    }
+}

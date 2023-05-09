@@ -5,16 +5,16 @@ module.exports = {
     tabWidth: 4,
     // 不使用 tab 縮進，而使用空格
     useTabs: false,
-    // 行尾需要有分號
-    semi: true,
+    // 每個語句的結尾不需要分號
+    semi: false,
     // 使用單引號代替雙引號
     singleQuote: true,
     // 對象的 key 僅在必要時用引號
     quoteProps: 'as-needed',
     // jsx 不使用單引號，而使用雙引號
     jsxSingleQuote: false,
-    // 末尾使用逗號
-    trailingComma: 'all',
+    // 如 Object、Array 內的元素不需要尾隨逗號
+    trailingComma: 'none',
     // 大括號內的首尾需要空格 { foo: bar }
     bracketSpacing: true,
     // jsx 標簽的反尖括號需要換行

@@ -1,23 +1,35 @@
 module.exports = {
-    parser: 'vue-eslint-parser',
-
-    parserOptions: {
-        parser: '@typescript-eslint/parser',
-        ecmaVersion: 2020,
-        sourceType: 'module',
-        ecmaFeatures: {
-            jsx: true,
-        },
+    env: {
+        browser: true,
+        es2021: true
     },
-
+    parser: 'vue-eslint-parser',
+    parserOptions: {
+        ecmaVersion: 13,
+        sourceType: 'module'
+    },
     extends: [
+        '@nuxtjs/eslint-config-typescript',
         'plugin:vue/vue3-recommended',
         'plugin:@typescript-eslint/recommended',
         'prettier',
         'plugin:prettier/recommended'
     ],
-
+    plugins: ['prettier'],
     rules: {
-        // override/add rules settings here, such as:
-    }
-};
+        'prettier/prettier': 'error'
+    },
+    overrides: [
+        {
+            files: [
+                '**/pages/**/*.{js,ts,vue}',
+                '**/layouts/**/*.{js,ts,vue}',
+                '**/app.{js,ts,vue}',
+                '**/error.{js,ts,vue}'
+            ],
+            rules: {
+                'vue/multi-word-component-names': 'off'
+            }
+        }
+    ]
+}
