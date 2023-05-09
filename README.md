@@ -8,7 +8,6 @@
 - [prettier](https://github.com/prettier/prettier)
 - [commitizen](https://github.com/commitizen/cz-cli)
 - [husky](https://github.com/typicode/husky)
-- [scss](https://github.com/sass/sass)
 
 ## Setup
 
